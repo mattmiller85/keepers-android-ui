@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_ac8cba644e65dfc08ec3ebbf38b03abc26e096e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_08e6c98dcc8f9bbbd007ce91e58e3d0d36ec409f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_6a880891c23f38d171e9d9aa30868d318f6a56eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\.gradle\caches\modules-2\files-2.1\com.adobe.xmp\xmpcore\5.1.2\55615fa2582424e38705487d1d3969af8554f637\xmpcore-5.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="55615fa2582424e38705487d1d3969af8554f637">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\xmpcore-5.1.2_e126a68372b03aa93d1022ff0d183b6a8ad6d019.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\exploded-aar\keepersandroidui\react-native-camera\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a056c4dcbba5eed338d89161ddc64f427293938">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\keepersandroidui-react-native-camera-unspecified_59f14b872b929056819f0b35c7dcf9abcd32b5a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_e916ea647703012c73b34eac76b767f798a3e79d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.49.5\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_e79b48a6a0f8b0576575598ed07428be825dea70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_12ce8a5b92d4f05a98854a9372c9eed57cecea70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_607e4fb442fc0668248e5698645ddcf5d697e3a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_546bcf22df38f0242612fbdb808944c68bf162fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.49.5\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="610b957661a666d16b2cd4664c6bf4370226dfd2">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.49.5_a0ed6ca4008ddcb324ad21bb2982d6446f41573a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_2ccaa3715489ae90b26dd5c5e4f8025d51af0daf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\.gradle\caches\modules-2\files-2.1\com.drewnoakes\metadata-extractor\2.9.1\53fdf22be10c9d426ec63431c7342895bc642261\metadata-extractor-2.9.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="53fdf22be10c9d426ec63431c7342895bc642261">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\metadata-extractor-2.9.1_1e15594ef1337ca211a689404bfc7f87a416dc89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_684feb35c41d8de1f4cfdf22014f34225db365ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_ff7fcaa660974ca762817f3646f8b9d7c18724c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\exploded-aar\keepersandroidui\react-native-fetch-blob\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="de31e43a8bbd6962302f47420d45c9778d1ae626">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\keepersandroidui-react-native-fetch-blob-unspecified_9aadc5441869c098d0cbd307a2a2b505139d8a9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_3a0ebc21c27a8b40b8e8dce8dc34475e471f44d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_283a337dd6a9ec4dee57c42f1862f3b5908b393f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_8c34bfd830db77c8a27d324e7b8c5019c6b4098a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_34b102fa04670866b466d83e62f257c9825d8fc5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_55c281fcaa8e46c77ed4be025373ee851406d624.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_77e88eca1b0c4665e9da74e137b9b9b98ee8c1a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_4368e78e760191024fd6f2ab99b6af3b523fa124.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\core-3.2.1_4a385f1c75b48a2dae52b5de40a1fa97f9d778d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_1f1b1a835e24c68d06a7b723b593b4dfcb284da4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\matt.miller\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_d07daee524db53ab4729f486d6c175e291df2255.jar" />
+    </item>
+
+</items>
