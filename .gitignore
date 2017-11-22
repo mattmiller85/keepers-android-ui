@@ -5,3 +5,5 @@ android/app/build*
 android/.settings*
 android/.gradle*
 android/.idea
+android/build*
+android/build/*

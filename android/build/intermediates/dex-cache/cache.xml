@@ -21,6 +21,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\exploded-aar\keepersandroidui\react-native-image-picker\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4bc7e4c88d8a58037f153bc224b47da51ae40f2f">
+        <dex dex="C:\Users\matt.miller\Documents\GitHub\keepers-android-ui\android\app\build\intermediates\pre-dexed\debug\keepersandroidui-react-native-image-picker-unspecified_f75c582945a0f17f63c3a27ebf2b75bfc0e401c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\matt.miller\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
         jumboMode="false"
         optimize="true"
