@@ -9,11 +9,13 @@ export class AddScreen extends React.Component {
 
     constructor(){
         super();
-        this._client = this.props.navigation.state.params.keepersClient;
+        this.client = () => this.props.screenProps.keepersClient;
     }
 
-  static navigationOptions = {
-    title: 'Add Document'
+  static navigationOptions = ({ navigation, screenProps }) => { 
+    return ({
+      title: 'Add Document'
+    })
   };
 
   componentDidMount() {
@@ -24,11 +26,6 @@ export class AddScreen extends React.Component {
       <View style={styles.container}>
         <Image source={{uri: this.props.navigation.state.params.image_url }} style={{ width: 200, height:300 }} ref={(img) => this.img = img }></Image> 
         <Button title="Add!" onPress={ async () => this.addDocument() }></Button>
-        <Text>{ this.state.statusMessage }</Text>
-        { this.state.connectedToKeepers ? 
-          <Button title="Reconnect" onPress={ () => this.configureClient() }></Button> :
-          <View />
-        }
       </View>
     );
   }
@@ -37,7 +34,7 @@ export class AddScreen extends React.Component {
       let msg = new messages.QueueForIndexingMessage();
       let stream = await RNFetchBlob.fs.readFile(this.props.navigation.state.params.image_url, 'base64');
       msg.document = { image_enc: stream };
-      this._client.send(msg);
+      this.client().send(msg);
       this.props.navigation.navigate('Home');
   }
   

@@ -24,7 +24,7 @@ export class PictureTaker extends React.Component {
 
   async takePicture() {
     const result = await this.camera.capture();
-    this.props.navigation.navigate('AddScreen', { image_url: result.path });
+    this.props.navigation.navigate('AddScreen', { keepersClient: this.props.screenProps.keepersClient, image_url: result.path });
   }
 
   render() {
