@@ -2,6 +2,7 @@ import { EventEmitter } from 'events';
 import cfg from './Config';
 import { AsyncStorage } from 'react-native';
 import { v4 as uuid } from 'react-native-uuid';
+import { MessageType } from './core/messages';
 
 export class KeepersClient extends EventEmitter {
 
@@ -76,6 +77,10 @@ export class KeepersClient extends EventEmitter {
     return JSON.parse(await AsyncStorage.getItem("KeepersUnprocessed") || "[]")
   }
 
+  searchDocuments(searchMessage) {
+    this.ws.send(JSON.stringify(searchMessage));
+  }
+
   constructor() {
     super();
     this.ws = new WebSocket(cfg.wsUrl);
@@ -87,7 +92,11 @@ export class KeepersClient extends EventEmitter {
 
     this.ws.onmessage = (e) => {
       // a message was received
-      this.emit("message", JSON.parse(e.data));
+      var message = JSON.parse(e.data);
+      if (message.type === MessageType.search_results) {
+        this.emit("searchComplete", message.results)
+      } 
+      this.emit("message", message);
     };
 
     this.ws.onerror = (e) => {

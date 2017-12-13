@@ -6,6 +6,8 @@ import { PictureTaker } from './PictureTaker';
 import { AddScreen } from './AddScreen';
 import { UnsentView } from './UnsentView';
 import { UnprocessedView } from './UnprocessedView';
+import { SearchView } from './SearchView';
+import { KeeperView } from './KeeperView';
 import ImagePicker from 'react-native-image-picker'
 import cfg from "./Config"
 
@@ -25,12 +27,17 @@ class HomeScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <View style={{ marginBottom: 10 }}><Button title="Add a keeper from a new picture" onPress={ () => this.openCamera() }></Button></View>
-        <View style={{ marginBottom: 10 }}><Button title="Add a keeper from an existing picture" onPress={ () => this.openPictures() }></Button></View>
-        <View style={{ marginBottom: 10 }}><Button title="View Unsent" onPress={ () => this.viewUnsent() }></Button></View>
-        <View style={{ marginBottom: 10 }}><Button title="View Unprocessed" onPress={ () => this.viewUnprocessed() }></Button></View>
+        <View style={ styles.mainbutton_top }><Button title="Find keepers!" onPress={ () => this.navigateToSearch() }></Button></View>
+        <View style={ styles.mainbutton }><Button title="Add a keeper from a new picture" onPress={ () => this.openCamera() }></Button></View>
+        <View style={ styles.mainbutton }><Button title="Add a keeper from an existing picture" onPress={ () => this.openPictures() }></Button></View>
+        <View style={ styles.mainbutton }><Button title="View Unsent" onPress={ () => this.viewUnsent() }></Button></View>
+        <View style={ styles.mainbutton }><Button title="View Unprocessed" onPress={ () => this.viewUnprocessed() }></Button></View>
       </View>
     );
+  }
+
+  navigateToSearch() {
+    this.props.navigation.navigate('SearchView');
   }
 
   viewUnsent() {
@@ -70,6 +77,8 @@ const KeepersApp = StackNavigator({
   AddScreen: { screen: AddScreen },
   UnsentView: { screen: UnsentView },
   UnprocessedView: { screen: UnprocessedView },
+  SearchView: { screen: SearchView },
+  KeeperView: { screen: KeeperView },
 }, { initialRouteName: "Home" });
 
 export default class App extends React.Component {
@@ -99,7 +108,6 @@ export default class App extends React.Component {
       this._client.getAllUnprocessed().then(items => this.setState({ unprocessedCount: items.length }));
     });
     this._client.on("message", (message) => {
-      debugger;
       if (message.type === MessageType.queue_for_indexing) {
         // Then this is an "ack" essentially, the message has been queued for pickup by a worker.
         // put it in "unprocessed"
@@ -124,9 +132,9 @@ export default class App extends React.Component {
   }
 
   render() {
-    return (<View style={styles.container}>
-          <KeepersApp style={{flex: 1}} screenProps={{ keepersClient: this._client }}></KeepersApp>
-          <View style={{flex: 0.1 }}><Text>{this.state.statusMessage} { this.state.unsentCount } unsent messages, { this.state.unprocessedCount } unprocessed.</Text>
+    return (<View style={{ flex: 1 }}>
+          <KeepersApp style={ styles.container_main } screenProps={{ keepersClient: this._client }}></KeepersApp>
+          <View><Text>{this.state.statusMessage} { this.state.unsentCount } unsent messages, { this.state.unprocessedCount } unprocessed.</Text>
           { !this.state.connectedToKeepers ? 
             <Button title="Reconnect" onPress={ () => this.configureClient() }></Button> :
             <View style={{flex: 1}} />
@@ -142,6 +150,19 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     justifyContent: 'center'
+  },
+  container_main: {
+    flex: 1,
+    flexGrow: 1,
+    marginBottom: 'auto',
+    backgroundColor: '#fff',
+    justifyContent: 'center'
+  },
+  mainbutton: {
+    marginBottom: 10
+  },
+  mainbutton_top: {
+    marginBottom: 50
   }
 });
  

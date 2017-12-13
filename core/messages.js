@@ -15,6 +15,8 @@ var MessageType;
     MessageType[MessageType["error"] = 1] = "error";
     MessageType[MessageType["queue_for_indexing"] = 2] = "queue_for_indexing";
     MessageType[MessageType["indexing_finished"] = 3] = "indexing_finished";
+    MessageType[MessageType["search_for_keeper"] = 4] = "search_for_keeper";
+    MessageType[MessageType["search_results"] = 5] = "search_results";
 })(MessageType = exports.MessageType || (exports.MessageType = {}));
 function getTypedMessage(messageObj) {
     if (!messageObj || !messageObj.type) {
@@ -47,6 +49,26 @@ var ErrorMessage = (function (_super) {
     return ErrorMessage;
 }(MessageBase));
 exports.ErrorMessage = ErrorMessage;
+var SearchRequestMessage = (function (_super) {
+    __extends(SearchRequestMessage, _super);
+    function SearchRequestMessage() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.type = MessageType.search_for_keeper;
+        return _this;
+    }
+    return SearchRequestMessage;
+}(MessageBase));
+exports.SearchRequestMessage = SearchRequestMessage;
+var SearchResultsMessage = (function (_super) {
+    __extends(SearchResultsMessage, _super);
+    function SearchResultsMessage(results) {
+        var _this = _super.call(this, { results: results }) || this;
+        _this.type = MessageType.search_results;
+        return _this;
+    }
+    return SearchResultsMessage;
+}(MessageBase));
+exports.SearchResultsMessage = SearchResultsMessage;
 var QueueForIndexingMessage = (function (_super) {
     __extends(QueueForIndexingMessage, _super);
     function QueueForIndexingMessage() {
